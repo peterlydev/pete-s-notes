@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Lato&family=Lobster&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d4af37;
+    font-family: aldrich;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+.add {
+    background-color: rgb(87, 29, 29);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.note{
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+.note .toolbar{
+    background-color: aquamarine;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.note .toolbar button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.note .main {
+    background-color: #eee;
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+
+.note textarea{
+    border: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    outline: none;
+    resize: none;
+    height: 400px;
+    width: 100%;
+}
+
+.notes .hidden {
+    display: none
+}
