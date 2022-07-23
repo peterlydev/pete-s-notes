@@ -6,7 +6,7 @@
 
 body{
     background-color: #d4af37;
-    font-family: aldrich;
+    font-family: lato;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -30,7 +30,8 @@ body{
     background-color: #fff;
     width: 400px;
     height: 400px;
-    margin: 20px;
+    margin: 1rem;
+    margin-top: 5%
 }
 
 .note .toolbar{
@@ -54,6 +55,7 @@ body{
     overflow: hidden;
     height: 400px;
     width: 100%;
+    
 }
 
 .note textarea{
@@ -64,8 +66,15 @@ body{
     resize: none;
     height: 400px;
     width: 100%;
+    padding: 20px;
 }
 
 .notes .hidden {
     display: none
+}
+
+@media (max-width: 852px){
+    .note {
+        margin-top: 20%;
+    }
 }
